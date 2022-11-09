@@ -1,6 +1,6 @@
 function main() {
-  x = 10;
-  y = 10;
+  var x = 10;
+  var y = 10;
 
   return [x, y];
 }

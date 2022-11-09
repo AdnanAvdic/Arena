@@ -1,5 +1,5 @@
 function main(numOne, numTwo) {
-  sum = numOne + numTwo;
+  var sum = numOne + numTwo;
 
   return sum;
 }
