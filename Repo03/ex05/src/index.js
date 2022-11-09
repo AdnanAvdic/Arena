@@ -1,8 +1,7 @@
 function main() {
-  x = 10;
-  y = 10;
+  var x = 8;
 
-  return [x, y];
+  return x;
 }
 
 console.log(main());
