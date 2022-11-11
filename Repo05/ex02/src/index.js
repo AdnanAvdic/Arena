@@ -1,7 +1,7 @@
 function main() {
-  var myFirstString = 'I think therefore I "am" -- sentient.';
+  var myFirstString = 'I think therefore I \"am\" -- sentient.';
 
-  var mySecondString = 'No, you only "think", so you aren\'t".';
+  var mySecondString = 'No, you only \"think\", so you aren\'t.';
 
   return {
     myFirstString,
