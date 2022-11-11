@@ -5,7 +5,7 @@ function main() {
   var myAdverb = "quickly";
 
   var wordBlanks =
-    myNoun + " " + myVerb + " " + myAdjective + " " + myAdverb + ".";
+    myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
   return wordBlanks;
 }
