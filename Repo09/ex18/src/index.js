@@ -1,21 +1,21 @@
 function myForLoop1() {
-  var evenNumbers = "";
+  var evenNumbers = [];
   for (var i = 0; i <= 8; i += 2) {
-    evenNumbers += i;
+    evenNumbers.push(i);
   }
 
-  return console.log(evenNumbers);
+  return evenNumbers.toString();
 }
 
 function myForLoop2() {
-  var evenInverseNumbers = "";
+  var evenInverseNumbers = [];
   for (var i = 8; i >= 0; i -= 2) {
-    evenInverseNumbers += i;
+    evenInverseNumbers.push(i);
   }
 
-  return console.log(evenInverseNumbers);
+  return evenInverseNumbers.toString();
 }
 
-myForLoop1();
-myForLoop2();
+console.log(myForLoop1());
+console.log(myForLoop2());
 module.exports = { myForLoop1, myForLoop2 };
