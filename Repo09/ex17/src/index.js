@@ -1,12 +1,13 @@
 function inverseWhile() {
-  var fiveNumbers = "";
+  var fiveNumbers = [];
   var i = 5;
+
   while (i >= 0) {
-    fiveNumbers += i + ",";
+    fiveNumbers.push(i);
     i--;
   }
 
-  return fiveNumbers;
+  return fiveNumbers.toString();
 }
 
 console.log(inverseWhile());
