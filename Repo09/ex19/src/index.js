@@ -1,13 +1,13 @@
 function myDoWhile() {
-  var myNumbers = "";
+  var myNumbers = [];
   var i = 0;
 
   do {
-    myNumbers += i + " ,";
+    myNumbers.push(i);
     i++;
   } while (i < 10);
 
-  return myNumbers;
+  return myNumbers.toString();
 }
 
 console.log(myDoWhile());
