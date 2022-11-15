@@ -1,8 +1,9 @@
 function inverseWhile() {
-  var fiveNumbers = 5;
-  while (fiveNumbers > 0) {
-    console.log(fiveNumbers);
-    fiveNumbers--;
+  var fiveNumbers = "";
+  var i = 5;
+  while (i >= 0) {
+    fiveNumbers += i + ",";
+    i--;
   }
 
   return fiveNumbers;
