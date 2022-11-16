@@ -9,5 +9,5 @@ function myFunction(myObj) {
   return myObj;
 }
 
-console.log(myFunction(myPet));
+console.log(myFunction(myPet, myFunction));
 module.exports = myFunction;
