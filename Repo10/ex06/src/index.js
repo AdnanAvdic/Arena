@@ -9,5 +9,5 @@ function myFunction(roar, roarroar) {
   return lion;
 }
 
-console.log(myFunction("sound", "roar-roar"));
+console.log(myFunction("roar", "roar-roar"));
 module.exports = myFunction;
