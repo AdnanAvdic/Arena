@@ -9,3 +9,4 @@ function myReverse(str) {
 }
 
 console.log(myReverse(str));
+module.exports = myReverse;

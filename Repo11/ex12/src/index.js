@@ -12,3 +12,4 @@ function splitArrayInGroups(arr, n) {
 }
 
 console.log(splitArrayInGroups(["a", "b", "c", "d"], 2));
+module.exports = splitArrayInGroups;
