@@ -39,3 +39,5 @@ console.log(
     [72, 3, 17, 10],
   ])
 );
+
+module.exports = largestNumFromArr;
