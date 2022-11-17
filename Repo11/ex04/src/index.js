@@ -19,8 +19,9 @@ function myArrayFunction() {
     averageDayTemp.push(sum);
   }
 
-  console.log(averageDayTemp);
+  return averageDayTemp;
 }
 
+console.log(myArrayFunction());
 myArrayFunction();
 module.exports = myArrayFunction;
