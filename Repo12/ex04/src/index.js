@@ -24,3 +24,4 @@ sumFibonacci(10);
 sumFibonacci(20);
 sumFibonacci(4);
 sumFibonacci(-5);
+module.exports = sumFibonacci;

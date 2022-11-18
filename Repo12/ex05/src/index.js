@@ -18,3 +18,5 @@ function myPetsFunction(pets) {
 }
 
 console.log(myPetsFunction(myPetsArray));
+module.exports = myPetsFunction;
+module.exports.myPets = myPetsArray;
