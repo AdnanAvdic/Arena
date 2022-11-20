@@ -2,10 +2,12 @@
   display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   gap: 12px;
+  width: auto;
+  height: auto;
 }
 
 img {
-  width: 100%;
+  width: 300px;
 }
 
 /* The Modal (background) */
@@ -50,8 +52,9 @@ img {
   visibility: hidden;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
-  width: auto;
+  width: 300px;
   color: white;
+  text-align: center;
 }
 
 .wrapper {
@@ -61,4 +64,5 @@ img {
 .wrapper:hover .popup {
   visibility: visible;
   opacity: 1;
+  cursor: pointer;
 }
