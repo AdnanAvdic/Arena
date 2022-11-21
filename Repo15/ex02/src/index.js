@@ -1,12 +1,15 @@
-function printManyTimes(str) {
+function checkVariableScope() {
   "use strict";
-  const sentence = str + " is cool!";
-  for (let i = 0; 1 < str.length; i += 2) {
-    console.log(sentence);
+  let i = "function variable";
+
+  if (true) {
+    let i = "block variable";
+    console.log("Scope i is: ", i);
   }
 
-  return sentence;
+  console.log("Scope i is: ", i);
+  return i;
 }
 
-printManyTimes("Arena");
-module.exports = printManyTimes;
+checkVariableScope();
+module.exports = checkVariableScope;
