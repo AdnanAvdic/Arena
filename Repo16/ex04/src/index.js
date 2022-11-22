@@ -1,22 +1,23 @@
 class Pets {
-  constructor(name, legs) {
-    this.name = name;
-    this.legs = legs;
+  constructor(_name, _legs) {
+    this.name = _name;
+    this.legs = _legs;
   }
 
-  static walk() {
-    let numberOfLegs = `${_name} is walking on ${legs} legs`;
-    return numberOfLegs;
+  walk() {
+    let numberOfLegs = this.legs;
+    return `${this.name} is walking on ${numberOfLegs} legs`;
   }
 }
 
 class Dog extends Pets {
-  constructor(name, legs) {
-    super(name, legs);
+  constructor(_name, _legs) {
+    super(_name, _legs);
   }
 
-  static bark(dogSay) {
-    return dogSay + "says WUF-WUF";
+  bark() {
+    let dogSay = `${this.name} says WUF-WUF`;
+    return dogSay;
   }
 }
 
